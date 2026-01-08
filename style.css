@@ -15,10 +15,20 @@ html {
 }
 
 /* create overflow classes and all other CSS below here */
+.overflow-auto {
+    overflow: auto;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
 
+.overflow-visible {
+    overflow: visible;
+}
 
-
-
+.overflow-scroll {
+    overflow: scroll;
+}
 
 /* code for positioning code-along */
 .one, .two, .three, .four{
@@ -33,33 +43,45 @@ html {
     width:40%;
     float:left;
     height: 400px;
+    overflow: auto;
 }
 .wrapper2{
     border:solid black 2px;
     width:40%;
     float: right;
     height: 400px;
+    overflow: auto;
 }
 .one{
     border: red solid 2px;
     /*Code for Step 2*/
-
-
+    overflow: auto;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
 }
 .two{
     border: yellow solid 2px;
     /*Code for Step 3*/
-
-
+    overflow: hidden;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
 }
+
 .three{
     border: blue solid 2px;
     /*Code for Step 4*/
-
-
+    overflow: visible;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
 }
 .four{
     border: orange solid 2px;
     /*Code for Step 5*/
-  
+   overflow: auto;
+   height: 100%;
+   padding: 10px;
+   overflow: auto;
 }
